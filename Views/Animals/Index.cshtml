@@ -4,92 +4,60 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalNome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalRaca)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalTipo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalCor)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalSexo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalObservacao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalFoto)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalDtDesaparecimento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalDtEncontro)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AnimalStatus)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Usuario)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalNome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalRaca)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalTipo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalCor)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalSexo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalObservacao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalFoto)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalDtDesaparecimento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalDtEncontro)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimalStatus)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Usuario.UsuarioId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.AnimalsId">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.AnimalsId">Detalhes</a> |
-                <a asp-action="Delete" asp-route-id="@item.AnimalsId">Deletar</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h1 class="mb-0">Lista de Animais</h1>
+        </div>
+        <div class="card-body">
+            <p>
+                <a asp-action="Create" class="btn btn-success">Criar Novo</a>
+            </p>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="background-color: #007bff; color: white;">Nome</th>
+                            <th style="background-color: #007bff; color: white;">Raça</th>
+                            <th style="background-color: #007bff; color: white;">Tipo</th>
+                            <th style="background-color: #007bff; color: white;">Cor</th>
+                            <th style="background-color: #007bff; color: white;">Sexo</th>
+                            <th style="background-color: #007bff; color: white;">Observação</th>
+                            <th style="background-color: #007bff; color: white;">Foto</th>
+                            <th style="background-color: #007bff; color: white;">Dt. Desaparecimento</th>
+                            <th style="background-color: #007bff; color: white;">Dt. Encontro</th>
+                            <th style="background-color: #007bff; color: white;">Status</th>
+                            <th style="background-color: #007bff; color: white;">Usuário</th>
+                            <th style="background-color: #007bff; color: white;"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.AnimalNome)</td>
+                                <td>@Html.DisplayFor(modelItem => item.AnimalRaca)</td>
+                                <td>@Html.DisplayFor(modelItem => item.AnimalTipo)</td>
+                                <td>@Html.DisplayFor(modelItem => item.AnimalCor)</td>
+                                <td>@Html.DisplayFor(modelItem => item.AnimalSexo)</td>
+                                <td>@Html.DisplayFor(modelItem => item.AnimalObservacao)</td>
+                                <td>@Html.DisplayFor(modelItem => item.AnimalFoto)</td>
+                                <td>@Html.DisplayFor(modelItem => item.AnimalDtDesaparecimento)</td>
+                                <td>@Html.DisplayFor(modelItem => item.AnimalDtEncontro)</td>
+                                <td>@Html.DisplayFor(modelItem => item.AnimalStatus)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Usuario.UsuarioNome)</td>
+                                <td>
+                                    <div class="btn-group" role="group">
+                                        <a asp-action="Edit" asp-route-id="@item.AnimalsId" class="btn btn-warning btn-sm">Editar</a>
+                                        <a asp-action="Details" asp-route-id="@item.AnimalsId" class="btn btn-info">Detalhes</a>
+                                        <a asp-action="Delete" asp-route-id="@item.AnimalsId" class="btn btn-danger">Deletar</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -9,97 +9,99 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TrackIt
 build_property.RootNamespace = TrackIt
-build_property.ProjectDir = C:\Users\Aluno\Desktop\Sprint 4\TrackIt\
+build_property.ProjectDir = D:\TRABALHOS SENAI\sistema-petspot\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Aluno\Desktop\Sprint 4\TrackIt
+build_property.MSBuildProjectDirectory = D:\TRABALHOS SENAI\sistema-petspot
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Animals/Create.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Animals/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Animals/Delete.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Animals/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Animals/Details.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Animals/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Animals/Edit.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Animals/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Animals/Index.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Animals/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Home/Index.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Home/Privacy.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Observacoes/Create.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Observacoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JzZXJ2YWNvZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Observacoes/Delete.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Observacoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JzZXJ2YWNvZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Observacoes/Details.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Observacoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JzZXJ2YWNvZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Observacoes/Edit.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Observacoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JzZXJ2YWNvZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Observacoes/Index.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Observacoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JzZXJ2YWNvZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Shared/Error.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Usuario/Create.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Usuario/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Usuario/Delete.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Usuario/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Usuario/Details.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Usuario/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Usuario/Edit.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Usuario/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Usuario/Index.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Usuario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/_ViewImports.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/_ViewStart.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/Sprint 4/TrackIt/Views/Shared/_Layout.cshtml]
+[D:/TRABALHOS SENAI/sistema-petspot/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jncdr0u7ia

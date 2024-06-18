@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<Contexto>
-(options => options.UseSqlServer("Data Source=SP-1491010\\SQLSENAI; Initial Catalog = TrackIt; Integrated Security = True; TrustServerCertificate = True;"));
+(options => options.UseSqlServer("Data Source=DESKTOP-S7UH3FN; Initial Catalog = TrackIt; Integrated Security = True; TrustServerCertificate = True;"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

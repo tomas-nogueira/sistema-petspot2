@@ -7,27 +7,27 @@ namespace TrackIt.Models
     public class Usuario
     {
         [Column("UsuarioId")]
-        [Display(Name = "Cód. do Usuário")]
+        [Display(Name = "Cód.")]
 
         public int UsuarioId { get; set; }
 
         [Column("UsuarioNome")]
-        [Display(Name = "Nome do Usuário")]
+        [Display(Name = "Nome")]
 
         public string UsuarioNome { get; set; } = string.Empty;
 
         [Column("UsuarioTelefone")]
-        [Display(Name = "Telefone do Usuário")]
+        [Display(Name = "Telefone")]
 
         public string UsuarioTelefone { get; set; } = string.Empty;
 
         [Column("UsuarioEmail")]
-        [Display(Name = "Email do Usuário")]
+        [Display(Name = "Email")]
 
         public string UsuarioEmail { get; set; } = string.Empty;
 
         [Column("UsuarioSenha")]
-        [Display(Name = "Senha do Usuário")]
+        [Display(Name = "Senha")]
 
         public string UsuarioSenha { get; set; } = string.Empty;
     }
